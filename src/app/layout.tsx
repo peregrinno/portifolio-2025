@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Luan Araujo - Software Engineer',
-  description: 'Software Engineer specialized in microservices, cloud, and scalability. Expert in Python, JavaScript, and cloud technologies.',
+  description: 'Software Engineer focado em micro serviços, cloud e escalabilidade. Experiência em diversas áreas e metodologias ágeis.',
   keywords: 'Software Engineer, Full Stack Developer, Cloud Computing, Microservices, Python, JavaScript, React, AWS',
   authors: [{ name: 'Luan Araujo' }],
   creator: 'Luan Araujo',
@@ -15,24 +15,33 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'pt_BR',
-    url: 'https://github.com/peregrinno',
+    url: 'https://peregrinno.netlify.app',
     title: 'Luan Araujo - Software Engineer',
-    description: 'Software Engineer specialized in microservices, cloud, and scalability',
+    description: 'Software Engineer focado em micro serviços, cloud e escalabilidade.',
     siteName: 'Luan Araujo Portfolio',
     images: [
       {
-        url: '/favicon/android-chrome-512x512.png',
+        url: 'https://peregrinno.netlify.app/favicon/android-chrome-512x512.png',
         width: 512,
         height: 512,
-        alt: 'Luan Araujo'
+        alt: 'Luan Araujo',
+        type: 'image/png',
       }
-    ]
+    ],
+  },
+  other: {
+    'og:image:secure_url': 'https://peregrinno.netlify.app/favicon/android-chrome-512x512.png',
+    'og:image:type': 'image/png',
+    'og:image:width': '512',
+    'og:image:height': '512',
+    'og:site_name': 'Luan Araujo Portfolio',
+    'og:image:alt': 'Luan Araujo - Software Engineer Portfolio'
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Luan Araujo - Software Engineer',
-    description: 'Software Engineer specialized in microservices, cloud, and scalability',
-    images: ['/favicon/android-chrome-512x512.png']
+    description: 'Software Engineer focado em micro serviços, cloud e escalabilidade.',
+    images: ['https://peregrinno.netlify.app/favicon/android-chrome-512x512.png']
   }
 }
 
